@@ -1,0 +1,178 @@
+
+a:link, a:hover, a:visited{
+	text-decoration: none;
+	color: white;
+}
+ul li{
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	float: left;
+	font-family: "helvetica", sans-serif;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.nav{
+	background-color: #414141;
+	width: 100%;
+	height: 70px;
+}
+.home{
+	margin-left: 30%;
+}
+.title{
+	font-size: 70px;
+}
+.title2{
+	font-size: 60px;
+}
+.title, .title2{
+	font-family: "helvetica", sans-serif;
+	font-weight: bold;
+	margin-top: 35px;
+	color: orange;
+}
+.title, .title2, .petweek, .blog{
+	display: inline-block;
+	float: left;
+	margin-bottom: 35px;
+	margin-left: 15px;
+}
+.social {
+	float:right;
+}
+.social p{
+	display: inline-block;
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+	float: left;
+	margin-top: 15px;
+}
+.social img{
+	float:left;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+.mainimg-container{
+	margin-bottom: 35px;
+	margin-top: 35px;
+	text-align: center;
+	clear: both;
+}
+.mainimg{
+	width: 80%;
+}
+.underimg{
+	padding-top: 35px;
+	margin: 0 auto;
+}
+.petweek, .blog{
+	width: 45%;
+	padding-left: 25px;
+	box-sizing:	border-box;
+}
+.petweek h2, .blog h2{
+	font: 35px "helvetica", sans-serif;
+	color: orange;
+	padding-bottom: 10px;
+}
+.petweek img{
+	display: inline-block;
+	float: left;
+	width: 150px;
+	padding-right: 10px;
+}
+.tagline{
+	font: 25px "helvetica", sans-serif;
+	clear:both;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	width: 95%;
+}
+.vol img{
+	width: 250px;
+	padding:10px;
+	margin-left: 5px;
+}
+#col1, #col2, #col3{
+	display: inline-block;
+	float: left;
+	width: 32%;
+	border-radius: 25px;
+	border: 2px solid orange;
+	margin: 5px;
+	box-sizing: border-box;
+	height: 350px;
+}
+.vol h2{
+	text-align: center;
+	font: bold 25px "helvetica", sans-serif;
+	color: orange;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.vol p, #bottom{
+	margin-top: 5px;
+	padding: 10px;
+	font: 15px "helvetica", sans-serif;
+}
+#bottom, #bottom a{
+	clear: both;
+	color: orange;
+}
+@media all and (max-width: 960px){
+	.social{
+		display: none;
+	}
+	ul li{
+		float: left;
+		font-size: 25px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.title{
+		font-size: 50px;
+	}
+	.home{
+		margin-left: 10px;
+	}
+	.underimg{
+		padding-top: 15px;
+	}
+}
+@media all and (max-width: 480px){
+	.title{
+		font-size: 35px;
+	}
+	.nav{
+		height: 50px;
+	}
+	ul li{
+		float: left;
+		font-size: 20px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.home{
+		margin-left: 10px;
+	}
+	.mainimg-container{
+		margin: 10px;
+	}
+	.petweek h2, .blog h2{
+		font-size: 25px;
+		padding-top: 20px;
+	}
+	.petweek, .blog{
+		clear: both;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
